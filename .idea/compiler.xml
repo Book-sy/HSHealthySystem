@@ -10,11 +10,12 @@
         <module name="guns-base-email" />
         <module name="guns-base-timers" />
         <module name="guns-vip-main" />
-        <module name="guns-base-auth" />
-        <module name="guns-base-sms" />
-        <module name="guns-sys" />
         <module name="guns-base" />
         <module name="guns-vip-gen" />
+        <module name="guns-vip-l" />
+        <module name="guns-sys" />
+        <module name="guns-base-auth" />
+        <module name="guns-base-sms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="guns-sys" target="1.8" />
       <module name="guns-vip" target="1.8" />
       <module name="guns-vip-gen" target="1.8" />
+      <module name="guns-vip-l" target="1.8" />
       <module name="guns-vip-main" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -40,6 +42,7 @@
       <module name="guns-sys" options="-parameters" />
       <module name="guns-vip" options="" />
       <module name="guns-vip-gen" options="-parameters" />
+      <module name="guns-vip-l" options="-parameters" />
       <module name="guns-vip-main" options="-parameters" />
     </option>
   </component>
